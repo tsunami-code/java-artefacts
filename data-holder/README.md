@@ -8,3 +8,33 @@ We have added OR Mapping and JPA support with H2 as database, in order to demons
 an end-to-end implementation of the API endpoints.
 
 We have also added HTTP header processing according to [the HTTP header spec](https://consumerdatastandardsaustralia.github.io/standards/#http-headers)
+
+
+## Usage
+#### Requirements
+If you wish to simply run the Model Holder you only require Docker.
+
+If you wish to build the CDS Model Holder from source, this requires:
+
++ Java 1.8+
++ Maven/Gradle
+
+#### Maven Build and Run
+
+To build:
+```
+mvn clean install
+```
+
+To run it:
+```
+mvn spring-boot:run
+```
+
+#### Docker
+
+To run it:
+```
+docker run -p 8443:8443 -p 8383:8383 consumerdatastandardsaustralia/data-holder:1.2.0-SNAPSHOT
+```
+

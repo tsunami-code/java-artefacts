@@ -12,9 +12,9 @@ We have also added HTTP header processing according to [the HTTP header spec](ht
 
 ## Usage
 #### Requirements
-If you wish to simply run the Model Holder you only require Docker.
+If you wish to simply run the CDS Data Holder you only require Docker.
 
-If you wish to build the CDS Model Holder from source, this requires:
+If you wish to build the CDS Data Holder from source, this requires:
 
 + Java 1.8+
 + Maven/Gradle

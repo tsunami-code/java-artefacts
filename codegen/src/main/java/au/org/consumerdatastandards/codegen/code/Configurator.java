@@ -37,7 +37,7 @@ public class Configurator extends CodegenConfigurator {
         setAdditionalProperty(getInvokerPackage(), CodegenConstants.INVOKER_PACKAGE);
         setAdditionalProperty(getGroupId(), CodegenConstants.GROUP_ID);
         setAdditionalProperty(getArtifactId(), CodegenConstants.ARTIFACT_ID);
-        setAdditionalProperty(getArtifactId(), CodegenConstants.ARTIFACT_VERSION);
+        setAdditionalProperty(getArtifactVersion(), CodegenConstants.ARTIFACT_VERSION);
         setAdditionalProperty(toAbsolutePathStr(getTemplateDir()), CodegenConstants.TEMPLATE_DIR);
         setAdditionalProperty(getModelNamePrefix(), CodegenConstants.MODEL_NAME_PREFIX);
         setAdditionalProperty(getModelNameSuffix(), CodegenConstants.MODEL_NAME_SUFFIX);
